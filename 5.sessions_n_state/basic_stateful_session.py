@@ -41,6 +41,7 @@ runner = Runner(
     session_service=session_service_stateful,
 )
 
+
 new_message = types.Content(
     role="user", parts=[types.Part(text="What is adarsha's favorite TV show?")]
 )
