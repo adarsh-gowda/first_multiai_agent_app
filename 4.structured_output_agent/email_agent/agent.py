@@ -12,6 +12,7 @@ class EmailContent(BaseModel):
     )
 
 
+
 # --- Create Email Generator Agent ---
 root_agent = LlmAgent(
     name="email_agent",
